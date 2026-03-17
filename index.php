@@ -57,14 +57,7 @@ class Street extends City {
     }
 }
 
-$myLocation = new Street(
-    "Europa",
-    "Italia",
-    "Puglia",
-    "Ba",
-    "Bari",
-    "Strada San Giorgio Martire 2D"
-);
+$myLocation = new Street("Europa", "Italia", "Puglia", "Ba", "Bari", "Strada San Giorgio Martire 2D");
 
 $myLocation->getMyCurrentLocation();
 
